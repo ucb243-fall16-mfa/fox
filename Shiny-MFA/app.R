@@ -73,7 +73,7 @@ ui <- shinyUI(fluidPage(
                   label = "Accessor ID", min = 1, max = 10, step = 1, value = 1),
       h6("For eigenvalue plot only:"),
       sliderInput("ncomps",
-                  label = "Number of Components", min = 1, max = 10, step =1 , value =10)
+                  label = "Number of Components", min = 1, max = 12, step =1 , value =10)
     ),
 
 
